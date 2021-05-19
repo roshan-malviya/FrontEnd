@@ -84,7 +84,7 @@ const EditProfile = ({profile:{profile,loading},createProfile,getCurrentProfile,
           >
         </div>
         <div className="form-group">
-          <input type="text" placeholder="Company" name="company" value={company} onChange={e=>onChange(e)} />
+          <input type="text" placeholder="Company" name="company" value={company} onChange={onChange} />
           <small className="form-text"
             >Could be your own company or one you work for</small
           >
